@@ -1,0 +1,56 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Noto Sans', sans-serif;
+    List-style: none; 
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.propic {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+nav {
+    background-color: #000000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.0rem;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 2.5px;
+}
+
+p{
+    color: yellow;
+}
